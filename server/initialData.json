@@ -1,0 +1,554 @@
+{
+  "hospitalInfo": {
+    "name": "PulseCare Super-Speciality Hospital",
+    "tagline": "Compassionate Care, Advanced Medicine",
+    "address": "Plot 42, Health City Avenue, Medical Enclave",
+    "phone": "+91 (11) 4890-7000",
+    "emergency": "1066 / 102",
+    "email": "contact@pulsecare-hospital.org",
+    "website": "www.pulsecare-hospital.org"
+  },
+  "doctors": [
+    {
+      "id": "doc-1",
+      "name": "Dr. Priya Sharma",
+      "specialty": "Interventional Cardiologist",
+      "department": "Cardiology",
+      "qualification": "MBBS, MD, DM (Cardiology), FACC",
+      "experience": "14 Years",
+      "fee": 1200,
+      "room": "Room 302, Block A",
+      "phone": "+91 98765 43210",
+      "email": "dr.priya@pulsecare.org",
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=400",
+      "rating": 4.9,
+      "patientsTreated": 1420,
+      "availableDays": ["Monday", "Wednesday", "Friday", "Saturday"],
+      "timing": "09:00 AM - 02:00 PM",
+      "status": "Available"
+    },
+    {
+      "id": "doc-2",
+      "name": "Dr. Rajesh Verma",
+      "specialty": "Senior Orthopedic Surgeon",
+      "department": "Orthopedics",
+      "qualification": "MBBS, MS (Ortho), MCh (Joint Replacement)",
+      "experience": "18 Years",
+      "fee": 1000,
+      "room": "Room 205, Block B",
+      "phone": "+91 98765 43211",
+      "email": "dr.rajesh@pulsecare.org",
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=400",
+      "rating": 4.8,
+      "patientsTreated": 2180,
+      "availableDays": ["Tuesday", "Thursday", "Saturday"],
+      "timing": "10:00 AM - 03:00 PM",
+      "status": "Available"
+    },
+    {
+      "id": "doc-3",
+      "name": "Dr. Sunita Menon",
+      "specialty": "Chief Pediatrician & Neonatologist",
+      "department": "Pediatrics",
+      "qualification": "MBBS, MD (Pediatrics), DCH",
+      "experience": "11 Years",
+      "fee": 900,
+      "room": "Room 108, Child Care Wing",
+      "phone": "+91 98765 43212",
+      "email": "dr.sunita@pulsecare.org",
+      "avatar": "https://images.unsplash.com/photo-1594824813589-3d02f5a5dc3d?auto=format&fit=crop&q=80&w=400",
+      "rating": 4.95,
+      "patientsTreated": 1850,
+      "availableDays": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "timing": "08:30 AM - 01:30 PM",
+      "status": "In Consultation"
+    },
+    {
+      "id": "doc-4",
+      "name": "Dr. Amit Kapoor",
+      "specialty": "Consultant Neurologist",
+      "department": "Neurology",
+      "qualification": "MBBS, MD (Gen Med), DM (Neurology)",
+      "experience": "15 Years",
+      "fee": 1500,
+      "room": "Room 412, Neurosciences Block",
+      "phone": "+91 98765 43213",
+      "email": "dr.amit@pulsecare.org",
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=400",
+      "rating": 4.75,
+      "patientsTreated": 1130,
+      "availableDays": ["Wednesday", "Thursday", "Friday", "Sunday"],
+      "timing": "11:00 AM - 04:00 PM",
+      "status": "On Round"
+    }
+  ],
+  "patients": [
+    {
+      "id": "pat-1",
+      "name": "Rahul Mehta",
+      "age": 29,
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "phone": "+91 99112 23344",
+      "email": "rahul.mehta@example.com",
+      "address": "B-12, Green Park Extension, New Delhi",
+      "emergencyContact": "Kavita Mehta (Spouse) - +91 99112 23345",
+      "allergies": ["Penicillin", "Sulfa drugs"],
+      "vitals": {
+        "bp": "120/80 mmHg",
+        "heartRate": "74 bpm",
+        "temp": "98.4 °F",
+        "sugar": "95 mg/dL",
+        "weight": "72 kg",
+        "height": "178 cm"
+      },
+      "admitted": false,
+      "admittedWard": null,
+      "totalVisits": 4
+    },
+    {
+      "id": "pat-2",
+      "name": "Ananya Roy",
+      "age": 34,
+      "gender": "Female",
+      "bloodGroup": "B+",
+      "phone": "+91 98223 44556",
+      "email": "ananya.roy@example.com",
+      "address": "402 Silver Crest Heights, Sector 15",
+      "emergencyContact": "Subhash Roy (Father) - +91 98223 44557",
+      "allergies": ["None reported"],
+      "vitals": {
+        "bp": "116/78 mmHg",
+        "heartRate": "68 bpm",
+        "temp": "98.6 °F",
+        "sugar": "88 mg/dL",
+        "weight": "58 kg",
+        "height": "163 cm"
+      },
+      "admitted": false,
+      "admittedWard": null,
+      "totalVisits": 2
+    },
+    {
+      "id": "pat-3",
+      "name": "Vikram Singh",
+      "age": 58,
+      "gender": "Male",
+      "bloodGroup": "A+",
+      "phone": "+91 97334 55667",
+      "email": "vikram.singh@example.com",
+      "address": "Flat 8B, Royal Residency, Metro Road",
+      "emergencyContact": "Ritu Singh (Daughter) - +91 97334 55668",
+      "allergies": ["Aspirin"],
+      "vitals": {
+        "bp": "138/92 mmHg",
+        "heartRate": "82 bpm",
+        "temp": "99.1 °F",
+        "sugar": "142 mg/dL",
+        "weight": "84 kg",
+        "height": "172 cm"
+      },
+      "admitted": true,
+      "admittedWard": "ICU-02",
+      "totalVisits": 9
+    },
+    {
+      "id": "pat-4",
+      "name": "Meera Patel",
+      "age": 25,
+      "gender": "Female",
+      "bloodGroup": "AB+",
+      "phone": "+91 96445 66778",
+      "email": "meera.patel@example.com",
+      "address": "77 Sunrise Apartments, Civil Lines",
+      "emergencyContact": "Harish Patel (Brother) - +91 96445 66779",
+      "allergies": ["Dust", "Seafood"],
+      "vitals": {
+        "bp": "110/72 mmHg",
+        "heartRate": "70 bpm",
+        "temp": "98.2 °F",
+        "sugar": "92 mg/dL",
+        "weight": "54 kg",
+        "height": "160 cm"
+      },
+      "admitted": false,
+      "admittedWard": null,
+      "totalVisits": 1
+    },
+    {
+      "id": "pat-5",
+      "name": "Harpreet Kaur",
+      "age": 46,
+      "gender": "Female",
+      "bloodGroup": "O-",
+      "phone": "+91 95556 77889",
+      "email": "harpreet.k@example.com",
+      "address": "129 Defence Colony, Block C",
+      "emergencyContact": "Gurdeep Singh (Husband) - +91 95556 77890",
+      "allergies": ["Ibuprofen"],
+      "vitals": {
+        "bp": "128/84 mmHg",
+        "heartRate": "76 bpm",
+        "temp": "98.7 °F",
+        "sugar": "110 mg/dL",
+        "weight": "66 kg",
+        "height": "165 cm"
+      },
+      "admitted": true,
+      "admittedWard": "GEN-104",
+      "totalVisits": 5
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-101",
+      "patientId": "pat-1",
+      "patientName": "Rahul Mehta",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Priya Sharma",
+      "department": "Cardiology",
+      "date": "2026-10-12",
+      "timeSlot": "09:30 AM",
+      "status": "Scheduled",
+      "reason": "Routine hypertension checkup and ECG review",
+      "tokenNumber": "CAR-04",
+      "fee": 1200,
+      "createdAt": "2026-10-10T10:15:00Z"
+    },
+    {
+      "id": "apt-102",
+      "patientId": "pat-2",
+      "patientName": "Ananya Roy",
+      "doctorId": "doc-2",
+      "doctorName": "Dr. Rajesh Verma",
+      "department": "Orthopedics",
+      "date": "2026-10-12",
+      "timeSlot": "11:00 AM",
+      "status": "Scheduled",
+      "reason": "Right knee persistent pain post-jogging",
+      "tokenNumber": "ORT-08",
+      "fee": 1000,
+      "createdAt": "2026-10-09T14:30:00Z"
+    },
+    {
+      "id": "apt-103",
+      "patientId": "pat-3",
+      "patientName": "Vikram Singh",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Priya Sharma",
+      "department": "Cardiology",
+      "date": "2026-10-11",
+      "timeSlot": "10:00 AM",
+      "status": "In Consultation",
+      "reason": "Chest tightness and elevated blood pressure",
+      "tokenNumber": "CAR-01",
+      "fee": 1200,
+      "createdAt": "2026-10-11T08:00:00Z"
+    },
+    {
+      "id": "apt-104",
+      "patientId": "pat-4",
+      "patientName": "Meera Patel",
+      "doctorId": "doc-4",
+      "doctorName": "Dr. Amit Kapoor",
+      "department": "Neurology",
+      "date": "2026-10-11",
+      "timeSlot": "12:30 PM",
+      "status": "Completed",
+      "reason": "Frequent migraine attacks with light sensitivity",
+      "tokenNumber": "NEU-03",
+      "fee": 1500,
+      "createdAt": "2026-10-08T11:20:00Z"
+    },
+    {
+      "id": "apt-105",
+      "patientId": "pat-5",
+      "patientName": "Harpreet Kaur",
+      "doctorId": "doc-2",
+      "doctorName": "Dr. Rajesh Verma",
+      "department": "Orthopedics",
+      "date": "2026-10-10",
+      "timeSlot": "02:00 PM",
+      "status": "Completed",
+      "reason": "Lumbar spine disc checkup & MRI consultation",
+      "tokenNumber": "ORT-02",
+      "fee": 1000,
+      "createdAt": "2026-10-07T09:45:00Z"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "rx-201",
+      "appointmentId": "apt-104",
+      "patientId": "pat-4",
+      "patientName": "Meera Patel",
+      "doctorId": "doc-4",
+      "doctorName": "Dr. Amit Kapoor",
+      "date": "2026-10-11",
+      "diagnosis": "Chronic Migraine with Visual Aura",
+      "medicines": [
+        {
+          "name": "Tab. Rizatriptan 10mg",
+          "dosage": "1 Tab SOS",
+          "timing": "At onset of headache",
+          "days": "10 Days",
+          "instructions": "Do not exceed 2 tabs in 24 hours"
+        },
+        {
+          "name": "Tab. Propranolol 40mg",
+          "dosage": "1 Tab Daily",
+          "timing": "After Breakfast",
+          "days": "30 Days",
+          "instructions": "Prophylactic treatment for migraine prevention"
+        },
+        {
+          "name": "Cap. Pantoprazole 40mg",
+          "dosage": "1 Cap Daily",
+          "timing": "Before Breakfast (Empty Stomach)",
+          "days": "14 Days",
+          "instructions": "Gastric protection"
+        }
+      ],
+      "labTests": ["Brain MRI with Angiography", "Routine Serum Electrolytes"],
+      "advice": "Maintain hydration (minimum 3L water/day). Avoid sudden bright screen exposure without blue light filter. Maintain sleep log.",
+      "followUpDate": "2026-10-25"
+    },
+    {
+      "id": "rx-202",
+      "appointmentId": "apt-105",
+      "patientId": "pat-5",
+      "patientName": "Harpreet Kaur",
+      "doctorId": "doc-2",
+      "doctorName": "Dr. Rajesh Verma",
+      "date": "2026-10-10",
+      "diagnosis": "L4-L5 Lumbar Radiculopathy (Sciatica Mild)",
+      "medicines": [
+        {
+          "name": "Tab. Pregabalin 75mg + Methylcobalamin",
+          "dosage": "1 Tab Bedtime",
+          "timing": "After Dinner",
+          "days": "15 Days",
+          "instructions": "May cause mild drowsiness"
+        },
+        {
+          "name": "Tab. Etoricoxib 90mg",
+          "dosage": "1 Tab SOS",
+          "timing": "After Meals",
+          "days": "5 Days",
+          "instructions": "Take only if severe pain"
+        }
+      ],
+      "labTests": ["Spine Digital X-Ray AP/Lat", "Serum Vitamin D & B12"],
+      "advice": "Strictly avoid heavy weight lifting. Use ergonomic lumbar support chair. Start gentle physiotherapy exercises.",
+      "followUpDate": "2026-10-24"
+    }
+  ],
+  "beds": [
+    {
+      "id": "bed-1",
+      "bedNumber": "ICU-01",
+      "ward": "Intensive Care Unit (ICU)",
+      "type": "ICU",
+      "floor": "3rd Floor",
+      "status": "Available",
+      "patientId": null,
+      "patientName": null,
+      "admittedDate": null,
+      "dailyRate": 6500
+    },
+    {
+      "id": "bed-2",
+      "bedNumber": "ICU-02",
+      "ward": "Intensive Care Unit (ICU)",
+      "type": "ICU",
+      "floor": "3rd Floor",
+      "status": "Occupied",
+      "patientId": "pat-3",
+      "patientName": "Vikram Singh",
+      "admittedDate": "2026-10-10",
+      "dailyRate": 6500
+    },
+    {
+      "id": "bed-3",
+      "bedNumber": "ICU-03",
+      "ward": "Intensive Care Unit (ICU)",
+      "type": "ICU",
+      "floor": "3rd Floor",
+      "status": "Maintenance",
+      "patientId": null,
+      "patientName": null,
+      "admittedDate": null,
+      "dailyRate": 6500
+    },
+    {
+      "id": "bed-4",
+      "bedNumber": "EMG-01",
+      "ward": "Emergency Trauma Ward",
+      "type": "Emergency",
+      "floor": "Ground Floor",
+      "status": "Available",
+      "patientId": null,
+      "patientName": null,
+      "admittedDate": null,
+      "dailyRate": 3000
+    },
+    {
+      "id": "bed-5",
+      "bedNumber": "EMG-02",
+      "ward": "Emergency Trauma Ward",
+      "type": "Emergency",
+      "floor": "Ground Floor",
+      "status": "Occupied",
+      "patientId": "pat-1",
+      "patientName": "Emergency Triage Patient",
+      "admittedDate": "2026-10-11",
+      "dailyRate": 3000
+    },
+    {
+      "id": "bed-6",
+      "bedNumber": "GEN-101",
+      "ward": "General Male Ward",
+      "type": "General",
+      "floor": "1st Floor",
+      "status": "Available",
+      "patientId": null,
+      "patientName": null,
+      "admittedDate": null,
+      "dailyRate": 1500
+    },
+    {
+      "id": "bed-7",
+      "bedNumber": "GEN-102",
+      "ward": "General Male Ward",
+      "type": "General",
+      "floor": "1st Floor",
+      "status": "Available",
+      "patientId": null,
+      "patientName": null,
+      "admittedDate": null,
+      "dailyRate": 1500
+    },
+    {
+      "id": "bed-8",
+      "bedNumber": "GEN-104",
+      "ward": "General Female Ward",
+      "type": "General",
+      "floor": "1st Floor",
+      "status": "Occupied",
+      "patientId": "pat-5",
+      "patientName": "Harpreet Kaur",
+      "admittedDate": "2026-10-09",
+      "dailyRate": 1500
+    },
+    {
+      "id": "bed-9",
+      "bedNumber": "DLX-201",
+      "ward": "Executive Deluxe Suite",
+      "type": "Deluxe",
+      "floor": "2nd Floor",
+      "status": "Available",
+      "patientId": null,
+      "patientName": null,
+      "admittedDate": null,
+      "dailyRate": 8500
+    },
+    {
+      "id": "bed-10",
+      "bedNumber": "DLX-202",
+      "ward": "Executive Deluxe Suite",
+      "type": "Deluxe",
+      "floor": "2nd Floor",
+      "status": "Occupied",
+      "patientId": "pat-2",
+      "patientName": "Ananya Roy (VIP)",
+      "admittedDate": "2026-10-10",
+      "dailyRate": 8500
+    }
+  ],
+  "bills": [
+    {
+      "id": "inv-301",
+      "invoiceNo": "INV-2026-0891",
+      "patientId": "pat-4",
+      "patientName": "Meera Patel",
+      "date": "2026-10-11",
+      "items": [
+        { "name": "Dr. Amit Kapoor Consultation Fee", "amount": 1500 },
+        { "name": "Digital Neurological EEG Screening", "amount": 2800 },
+        { "name": "Pharmacy Medicines (Rx-201)", "amount": 640 }
+      ],
+      "subtotal": 4940,
+      "tax": 247,
+      "total": 5187,
+      "status": "Paid",
+      "paymentMethod": "UPI / Card",
+      "paidAt": "2026-10-11T13:10:00Z"
+    },
+    {
+      "id": "inv-302",
+      "invoiceNo": "INV-2026-0892",
+      "patientId": "pat-3",
+      "patientName": "Vikram Singh",
+      "date": "2026-10-11",
+      "items": [
+        { "name": "ICU Room Charge (2 Days @ 6500)", "amount": 13000 },
+        { "name": "Senior Cardiologist Consultation & Rounds", "amount": 3500 },
+        { "name": "Continuous Cardiac Monitoring & Oxygen", "amount": 4200 },
+        { "name": "Emergency Diagnostics & Blood Panel", "amount": 2900 }
+      ],
+      "subtotal": 23600,
+      "tax": 1180,
+      "total": 24780,
+      "status": "Pending",
+      "paymentMethod": "TPA / Cash Pending",
+      "paidAt": null
+    },
+    {
+      "id": "inv-303",
+      "invoiceNo": "INV-2026-0893",
+      "patientId": "pat-1",
+      "patientName": "Rahul Mehta",
+      "date": "2026-10-10",
+      "items": [
+        { "name": "Dr. Priya Sharma Cardiology Review", "amount": 1200 },
+        { "name": "12-Lead Digital ECG", "amount": 800 }
+      ],
+      "subtotal": 2000,
+      "tax": 100,
+      "total": 2100,
+      "status": "Paid",
+      "paymentMethod": "Google Pay",
+      "paidAt": "2026-10-10T11:45:00Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1",
+      "time": "10 minutes ago",
+      "title": "New Appointment Booked",
+      "desc": "Rahul Mehta scheduled Cardiology consultation with Dr. Priya Sharma.",
+      "type": "appointment"
+    },
+    {
+      "id": "act-2",
+      "time": "45 minutes ago",
+      "title": "Prescription Generated",
+      "desc": "Dr. Amit Kapoor prescribed medications for Meera Patel.",
+      "type": "prescription"
+    },
+    {
+      "id": "act-3",
+      "time": "2 hours ago",
+      "title": "Bed Allocated",
+      "desc": "Bed ICU-02 allocated to Vikram Singh under Critical Care observation.",
+      "type": "bed"
+    },
+    {
+      "id": "act-4",
+      "time": "3 hours ago",
+      "title": "Invoice Generated",
+      "desc": "Bill #INV-2026-0891 generated and settled via UPI for Meera Patel.",
+      "type": "billing"
+    }
+  ]
+}
